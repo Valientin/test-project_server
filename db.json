@@ -25,6 +25,19 @@
 				{ "lat": 40.13123, "lng": 56.52342  }	
 			],
 			"userId": 1
+		},
+		{
+			"id": 2,
+			"name": "Awesome route",
+			"description": "desc",
+			"categoryId": 2,
+			"length": 70.5,
+			"route": [
+				{ "lat": 40.13123, "lng": 56.52342  },
+				{ "lat": 40.13123, "lng": 56.52342  },
+				{ "lat": 40.13123, "lng": 56.52342  }	
+			],
+			"userId": 1
 		}
 	],
 	"comments": [
