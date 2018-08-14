@@ -21,8 +21,8 @@
 			"length": 50.5,
 			"route": [
 				{ "latitude": 40.13123, "longitude": 56.52342  },
-				{ "latitude": 40.13123, "longitude": 56.52342  },
-				{ "latitude": 40.13123, "longitude": 56.52342  }	
+				{ "latitude": 41.13123, "longitude": 56.53342  },
+				{ "latitude": 41.11123, "longitude": 56.52142  }	
 			],
 			"userId": 1
 		},
@@ -34,8 +34,8 @@
 			"length": 70.5,
 			"route": [
 				{ "latitude": 40.13123, "longitude": 56.52342  },
-				{ "latitude": 40.13123, "longitude": 56.52342  },
-				{ "latitude": 40.13123, "longitude": 56.52342  }	
+				{ "latitude": 41.13123, "longitude": 56.53342  },
+				{ "latitude": 41.11123, "longitude": 56.52142  }	
 			],
 			"userId": 1
 		}
