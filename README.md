@@ -1,14 +1,12 @@
-## Use production OSRM and Geocoding servers
+## Use OSRM service
 
-OSRM:
+Init osrm service - downloading map, docker and installing them:
 ```bash
-$ ssh -f eurotaxi-staging -L 5000:192.168.0.3:5000 -N
+$ npm run init-osrm
 ```
+Then you need to reboot the system and start the service using the command:
 
-Geocoding:
 ```bash
-$ ssh -f eurotaxi-staging -L 5001:192.168.0.3:80 -N
+$ npm run start-osrm
 ```
-
-*192.168.0.3* - is OSRM server address in server internal network.
-*eurotaxi-staging* - You must configure it in `~/.ssh/config` or use actual settings. You can use any server instead of *eurotaxi-staging*.
+*127.0.0.1:5000* - is local service OSRM in browser. Also you must add it to `/ etc / hosts` as `127.0.0.1  taxi-osrm`.
